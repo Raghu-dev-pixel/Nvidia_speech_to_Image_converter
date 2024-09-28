@@ -36,7 +36,7 @@ The Speech-to-Image Converter application can be used by following a few simple 
 1) **Installation**: Install [Nvidia's AI workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/). To make use of AI workbench it is also necessary to have [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) installed.
 
 2) **Cloning the Project**:
-* Once the Nvidia AI workbench and docker desktop has been installed successfully, open the AI workbench and choose the location where the project needs to be executed, it can either be local or remote as shown in the figure![My Locations](./images/location.png).
+* Once the Nvidia AI workbench and docker desktop has been installed successfully, open the AI workbench and choose the location where the project needs to be executed, it can either be local or remote as shown in the figure![My Locations](./images/Location.png).
 * Once the location to execute the project has been selected, there are two options. Either a new project can be created or clone an already existing project and since we already have our project in GitHub, we can clone the [speech to image converter application project](https://github.com/Raghu-dev-pixel/Nvidia_speech_to_Image_converter.git) and then click on the clone option![clone](./images/clone.png).
 * Once the project is cloned, the project starts building automatically, allow the build to complete, and as soon as the build is successful open the Jupyterlab in the right-hand side corner. ![Opening Jupyterlab](./images/jupyterlab.png).
 
