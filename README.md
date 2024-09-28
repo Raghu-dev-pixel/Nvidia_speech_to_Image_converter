@@ -41,7 +41,7 @@ The Speech-to-Image Converter application can be used by following a few simple 
 * Once the project is cloned, the project starts building automatically, allow the build to complete, and as soon as the build is successful open the Jupyterlab in the right-hand side corner. ![Opening Jupyterlab](./images/jupyterlab.png).
 
 3) **Running the Speech-to-Image-Converter Application**:
-* The code for this project is present in a directory called "code", there are two files a "speech_to_image_converter.ipynb". This is the main file that has the code to process audio from the user using OpenAI's whisper AI model and the text that is generated is converted to an image by passing the text to a text-to-image converter function present in the "image_generator.ipynb" file which internally works by calling Nvidia's API of a stable diffusion logic.
+* The code for this project is present in a directory called "code", there are two files "speech_to_image_converter.ipynb". This is the main file that has the code to process audio from the user using OpenAI's whisper AI model and the text that is generated is converted to an image by passing the text to a text-to-image converter function present in the "image_generator.ipynb" file which internally works by calling Nvidia's API of a stable diffusion logic.
 ![Directory structure](./images/directory_structure.png).
 * To run the application, open the "speech_to_image_converter.ipynb" file click on the kernel, and then select "Restart Kernel and Run All Cells".
   ![Running the Application](./images/app_run.png).
@@ -49,6 +49,6 @@ The Speech-to-Image Converter application can be used by following a few simple 
 
 4) **Using the Speech-to-Image-Converter Application**:
 * Play around with the application, with different audio inputs.
-* The application supports a direct speech input from the user if the acccess to microphone is allowed by the user and it is also possible to upload recorded audio files. And at the output, we get an image of what has been said in the audio input.
-* For instance in our example, the user says "Bengal Tiger" and at the output we have an image of "Bengal Tiger".
-  ![Speech_to_Image_Converter_Application](./images/app.png).
+* The application supports direct speech input from the user if access to a microphone is allowed by the user and it is also possible to upload recorded audio files. And at the output, we get an image of what has been said in the audio input.
+* For instance in our example, the user says "Bengal Tiger" and at the output, we have an image of "Bengal Tiger".
+  ![Speech_to_Image_Converter_Application](./images/app.png). 
