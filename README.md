@@ -32,4 +32,23 @@ This speech-to-image converter redefines the creative process, enabling users to
 
 
 ## Getting Started
-Optional section to summarize important steps and how to use the project & apps in the project
+The Speech-to-Image Converter application can be used by following a few simple steps described below:
+1) **Installation**: Install [Nvidia's AI workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/). To make use of AI workbench it is also necessary to have [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) installed.
+
+2) **Cloning the Project**:
+* Once the Nvidia AI workbench and docker desktop has been installed successfully, open the AI workbench and choose the location where the project needs to be executed, it can either be local or remote as shown in the figure![My Locations](./images/location.png).
+* Once the location to execute the project has been selected, there are two options. Either a new project can be created or clone an already existing project and since we already have our project in GitHub, we can clone the [speech to image converter application project](https://github.com/Raghu-dev-pixel/Nvidia_speech_to_Image_converter.git) and then click on the clone option![clone](./images/clone.png).
+* Once the project is cloned, the project starts building automatically, allow the build to complete, and as soon as the build is successful open the Jupyterlab in the right-hand side corner. ![Opening Jupyterlab](./images/jupyterlab.png).
+
+3) **Running the Speech-to-Image-Converter Application**:
+* The code for this project is present in a directory called "code", there are two files a "speech_to_image_converter.ipynb". This is the main file that has the code to process audio from the user using OpenAI's whisper AI model and the text that is generated is converted to an image by passing the text to a text-to-image converter function present in the "image_generator.ipynb" file which internally works by calling Nvidia's API of a stable diffusion logic.
+![Directory structure](./images/directory_structure.png).
+* To run the application, open the "speech_to_image_converter.ipynb" file click on the kernel, and then select "Restart Kernel and Run All Cells".
+  ![Running the Application](./images/app_run.png).
+* The execution of the program begins and once the execution is completed, a gradio link pops up at the bottom of the file![gradio link](./images/gradio) and by selecting the URL "Running on public URL", it redirects us to a webpage where we have our speech-to-image-conversion application.
+
+4) **Using the Speech-to-Image-Converter Application**:
+* Play around with the application, with different audio inputs.
+* The application supports a direct speech input from the user if the acccess to microphone is allowed by the user and it is also possible to upload recorded audio files. And at the output, we get an image of what has been said in the audio input.
+* For instance in our example, the user says "Bengal Tiger" and at the output we have an image of "Bengal Tiger".
+  ![Speech_to_Image_Converter_Application](./images/app.png).
